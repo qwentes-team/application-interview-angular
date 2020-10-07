@@ -19,7 +19,7 @@ Nel caso in cui non si riuscisse a terminare tutto l'esercizio la cosa che viene
 
 Non ci sono vincoli nell'uso di uno state management, è a vostra discrezione se utilizzarlo ed in quale caso.
 
-Tutte le API dell'esercizio provengono da [jsonplaceholder](https://jsonplaceholder.typicode.com/), in ogni caso ogni pagina segnalerà quale è la chiamata da effettuare per avere i dati ma in caso di dubbi si può sempre consulatare il sito che spiega molto bene come funziona.
+Tutte le API dell'esercizio provengono da [jsonplaceholder](https://jsonplaceholder.typicode.com/), in ogni caso ogni pagina segnalerà quale è la chiamata da effettuare per avere i dati ma se ci dovessero essere dubbi si può sempre consulatare il sito che spiega molto bene come funziona.
 
 ## Login
 > Immagini: [login](https://github.com/qwentes-team/application-interview/blob/main/01%20-%20Login.jpg) / [login invalid](https://github.com/qwentes-team/application-interview/blob/main/02%20-%20Login%20invalid.jpg)
