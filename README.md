@@ -1,7 +1,9 @@
 # Qwentes Application
 
 ## Premessa
-L'esercizio consiste nello sviluppare un portale che ha le seguenti pagine:
+**Il tempo massimo per la consegna è di 10 giorni dalla ricezione delle specifiche via email.**
+
+L'esercizio consiste nello sviluppare in Angular un portale che ha le seguenti pagine:
 - [login](#login)
 - una [lista utenti](#lista-utenti)
 - un [dettaglio utente](#dettaglio-utente)
@@ -9,6 +11,15 @@ L'esercizio consiste nello sviluppare un portale che ha le seguenti pagine:
 - un [dettaglio post](#dettaglio-post)
 
 Nella repo si possono vedere tutte le immagini dell'applicativo che si andrà a sviluppare ed i testi contenuti tra `[]` devono essere sostituiti con i dati presi dalle chiamate http.
+
+Nel caso in cui non si riuscisse a terminare tutto l'esercizio la cosa che viene presa piu in considerazione è la **qualità del codice**, non la quantità:
+- come viene strutturato
+- componenti stateless/statefull
+- corretta divisione tra UI e business logic
+
+Non ci sono vincoli nell'uso di uno state management, è a vostra discrezione la decisione se utilizzarlo ed in quale caso.
+
+Tutte le API dell'esercizio provengono da [jsonplaceholder](https://jsonplaceholder.typicode.com/), in ogni caso ogni pagina segnalerà quale è la chiamata da effettuare per avere i dati ma in caso di dubbi si può sempre consulatare il sito che spiega molto bene come funziona.
 
 ## Login
 > Immagini: [login](https://github.com/qwentes-team/application-interview/blob/main/01%20-%20Login.jpg) / [login invalid](https://github.com/qwentes-team/application-interview/blob/main/02%20-%20Login%20invalid.jpg)
@@ -19,6 +30,7 @@ Il portale prevede una login finta, i campi required dell'autenticazione sono:
 
 Se i campi non sono validi il bottone non si deve abilitare e l'input in errore deve avere un bordo rosso.
 Se i campi sono validi settare nel localStorage una chiave `token` con un valore a piacere e fare il redirect verso la pagina [lista utenti](#lista-utenti).
+Dopo essersi autenticati sarà sempre visibile un bottone *logout* in basso a destra che al click cancellerà il `token` nel localStorage e porterà l'utente nuovamente alla login
 
 ## Lista utenti
 > Immagini: [lista utenti](https://github.com/qwentes-team/application-interview/blob/main/03%20-%20Contact%20list.jpg)
@@ -85,3 +97,10 @@ Una lista di commenti, dove ogni commento deve mostrare
 - Comment body
 
 Reperibili tramite chiamata http in GET: `https://jsonplaceholder.typicode.com/comments?postId={postId}`
+
+## Plus
+> Tutte le cose sotto elencate sono solo dei miglioramenti, l'esercizio viene considerato completato anche senza l'implementazione di questi punti.
+
+- Rendere i moduli lazy (lazy routes) in modo da scaricare il modulo solo quando effettivamente serve
+- Aggiungere il controllo della login all'interno delle Route Guards così da bloccare correttamente l'utente nel caso tenti di accedere a delle sezioni via URL anche se non è loggato
+- Usare i reactive forms
