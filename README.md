@@ -17,7 +17,7 @@ Nel caso in cui non si riuscisse a terminare tutto l'esercizio la cosa che viene
 - componenti stateless/statefull
 - corretta divisione tra UI e business logic
 
-Non ci sono vincoli nell'uso di uno state management, è a vostra discrezione la decisione se utilizzarlo ed in quale caso.
+Non ci sono vincoli nell'uso di uno state management, è a vostra discrezione se utilizzarlo ed in quale caso.
 
 Tutte le API dell'esercizio provengono da [jsonplaceholder](https://jsonplaceholder.typicode.com/), in ogni caso ogni pagina segnalerà quale è la chiamata da effettuare per avere i dati ma in caso di dubbi si può sempre consulatare il sito che spiega molto bene come funziona.
 
