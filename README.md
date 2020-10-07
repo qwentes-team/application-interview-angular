@@ -2,7 +2,7 @@
 
 ## Premessa
 L'esercizio consiste nello sviluppare un portale che ha le seguenti pagine:
-- [login](login)[#login]
+- [login](#login)
 - una [lista utenti](#lista-utenti)
 - un [dettaglio utente](#dettaglio-utente)
 - una [lista posts](#lista-posts)
