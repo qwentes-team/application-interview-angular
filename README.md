@@ -1,7 +1,9 @@
 # Qwentes Application
+Il tempo massimo per la consegna è di 10 giorni dalla ricezione delle specifiche via email.
+
+Lo sviluppo può essere fatto su GitHub, GitLab o qualsiasi altro portale. Una volta terminato inviare il link della repo via email (la stessa email che ha inviato queste specifiche).
 
 ## Premessa
-**Il tempo massimo per la consegna è di 10 giorni dalla ricezione delle specifiche via email.**
 
 L'esercizio consiste nello sviluppare in Angular un portale che ha le seguenti pagine:
 - [login](#login)
@@ -10,7 +12,7 @@ L'esercizio consiste nello sviluppare in Angular un portale che ha le seguenti p
 - una [lista posts](#lista-posts)
 - un [dettaglio post](#dettaglio-post)
 
-Nella repo si possono vedere tutte le immagini dell'applicativo che si andrà a sviluppare ed i testi contenuti tra `[]` devono essere sostituiti con i dati presi dalle chiamate http.
+Nella repo si possono vedere tutte le immagini dell'applicativo che si andrà a sviluppare ed i testi contenuti tra `[]` devono essere sostituiti con i dati presi dalle chiamate http, è fortemente consigliato l'uso di AngularCLI per il setup del progetto.
 
 Nel caso in cui non si riuscisse a terminare tutto l'esercizio la cosa che viene presa piu in considerazione è la **qualità del codice**, non la quantità:
 - come viene strutturato
