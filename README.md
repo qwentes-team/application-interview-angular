@@ -67,10 +67,11 @@ Una volta che il form è valido, il bottone si abilita ed al click deve partire 
 }
 ```
 Ovviamente la chiamata in POST non andrà a modificare realmente il dato visto che le API sono solo dei placeholder, la cosa importante è inviare il payload ed avere un 200 come risposta.
-Al di sotto del form si devono vedere i post creati dall'utente che stiamo visualizzando, si possono ottenere facendo una chiamata http in GET: `https://jsonplaceholder.typicode.com/posts?userId=${userId}`
+Al di sotto del form si devono vedere i post creati dall'utente che stiamo visualizzando, si possono ottenere facendo una chiamata http in GET: `https://jsonplaceholder.typicode.com/posts?userId={userId}`
 Ogni post deve mostrare:
 - Post title
 - Post body
+
 Al click del post si deve andare sul [dettaglio post](#dettaglio-post)
 
 ## Lista posts
