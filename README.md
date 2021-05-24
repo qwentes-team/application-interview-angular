@@ -16,7 +16,7 @@ Nella repo si possono vedere tutte le immagini dell'applicativo che si andrà a 
 
 Nel caso in cui non si riuscisse a terminare tutto l'esercizio la cosa che viene presa piu in considerazione è la **qualità del codice**, non la quantità:
 - come viene strutturato
-- componenti stateless/statefull
+- componenti stateless/stateful
 - corretta divisione tra UI e business logic
 
 Non ci sono vincoli nell'uso di uno state management, è a vostra discrezione se utilizzarlo ed in quale caso.
