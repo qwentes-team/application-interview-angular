@@ -56,7 +56,7 @@ La pagina deve mostrare un form che consente la modifica di alcune informazioni 
 - Company Name
 
 I campi required devono essere validati e si devono comportare come la login in caso di errore. Lo stesso vale per il bottone del form.
-Una volta che il form è valido, il bottone si abilita ed al click deve partire una chiamata in POST: `https://jsonplaceholder.typicode.com/users/{userId}` passando come payload.
+Una volta che il form è valido, il bottone si abilita ed al click deve partire una chiamata in PATCH: `https://jsonplaceholder.typicode.com/users/{userId}` passando come payload.
 ```js
 {
 	name: "<valore del form>",
@@ -66,7 +66,7 @@ Una volta che il form è valido, il bottone si abilita ed al click deve partire 
 	}
 }
 ```
-Ovviamente la chiamata in POST non andrà a modificare realmente il dato visto che le API sono solo dei placeholder, la cosa importante è inviare il payload ed avere un 200 come risposta.
+Ovviamente la chiamata in PATCH non andrà a modificare realmente il dato visto che le API sono solo dei placeholder, la cosa importante è inviare il payload ed avere un 200 come risposta.
 Al di sotto del form si devono vedere i post creati dall'utente che stiamo visualizzando, si possono ottenere facendo una chiamata http in GET: `https://jsonplaceholder.typicode.com/posts?userId={userId}`
 Ogni post deve mostrare:
 - Post title
